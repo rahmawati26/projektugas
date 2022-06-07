@@ -1,0 +1,113 @@
+body{
+	background: #dfdfdf url("mtr.jpg") no-repeat fixed center;
+	font-family: sans-serif;
+}
+
+h1{
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#text_pendek{
+	font-size: 24px;
+	font-weight: bold;
+	background: yellow;
+	width: 50%;
+	height: 200px;
+	max-width: 30%;
+	max-height: 100px;
+	display: none;
+}
+
+#text_panjang{
+	text-align: justify;
+	text-indent: 30px;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	line-height: 20px;
+}
+
+#menu_wrap{
+	margin: 10px 0 50px 0;
+}
+
+.menu{
+	display: inline-block;
+	text-decoration: none;
+
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.menu:link{
+	background: grey;
+	color: white;
+}
+
+.menu:visited{
+	background: yellow;
+}
+
+.menu:hover{
+	background: green;
+}
+
+.menu:active{
+	background: white;
+}
+
+table{
+	float: left;
+	margin-right: 20px;
+}
+
+#div_baru{
+	clear: both;
+}
+
+ul, ol, dl{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 33.33%;
+}
+
+#copyright{
+	clear: both;
+	text-align: center;
+}
+
+h1, h2{
+	color: white;
+}
+
+div > a{
+	background: lightyellow;
+}
+
+p + div{
+	background: aqua;
+}
+
+div ~ p{
+	background: lightgrey;
+}
+
+h1:hover{
+	color: black;
+}
+
+h1:hover + h2{
+	color: black;
+}
+
+*/
+input:focus, textarea:focus{
+	background: magenta;
+}

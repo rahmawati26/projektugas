@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript</title>
+
+	<style>
+		#wrap{
+			background: maroon;
+			color: white;
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+
+	<img src="bromo.jpg" alt="gambar bromo" height="450" width="400">
+	<div id="wrap"></div>
+
+	<script>
+		
+		//tipe data array
+		// array dimulai dari angka 0
+		//var kotak = ["Rahmawati", "26", "Tri", "Wulandari"];
+		//kotak[1]  = "Desi";
+
+		//var text = "Namanya Adalah " + kotak[1]
+		//document.getElementById("wrap").innerHTML = text;
+
+		//sort, reverse, concat, length, join("separator"),
+		var namamhs = ["Rahmawati", "Desi", "Tri", "Wulandari"];
+		var namamhs2 = ["Anjar", "Palupii", "Lalaa"];
+		var namamhs3 = ["Rena", "Avila"];
+
+		//splice->add(mulai, dihapus?, isi), splice->remove
+		//pop, push, shift(), unshift(),
+
+		//namamhs.splice(2, 0, "Rara", "Rahell");
+		//namamhs.splice(2, 1);
+
+		namamhs.pop();
+		namamhs.push("Rahell");
+
+		namamhs.shift();
+		namamhs.unshift("Rahmawati");
+		document.getElementById("wrap").innerHTML = namamhs;
+		
+	</script>
+</body>
+</html>

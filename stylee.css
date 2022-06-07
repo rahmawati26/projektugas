@@ -1,0 +1,256 @@
+*{
+    dekorasi teks : tidak ada;
+    margin :  0 piksel ;
+    bantalan :  0 piksel ;
+}
+
+tubuh {
+    margin :  0 piksel ;
+    bantalan :  0 piksel ;
+    font-family :  'Buka Sans' , sans-serif;
+}
+
+.pembungkus {
+    lebar :  1100 piksel ;
+    margin : otomatis;
+    posisi : relatif;
+}
+
+.logo  { _
+    ukuran font :  50 px ;
+    berat font :  800 ;
+    mengapung : kiri;
+    font-family : kurir;
+    warna :  # 364f6b ;
+}
+
+.menu {
+    mengapung : benar;
+}
+
+navigasi {
+    lebar :  100 % ;
+    margin : otomatis;
+    tampilan : fleksibel;
+    tinggi garis :  80 px ;
+    posisi : lengket;
+    posisi : -webkit-sticky;
+    atas :  0 ;
+    latar belakang :  #FFFFFF ;
+    indeks-z :  1 ;
+    border-bottom : 1 px solid # 364f6b ;
+}
+
+navigasi { _
+    list-style-type : tidak ada;
+    batas :  0 ;
+    bantalan :  0 ;
+    luapan : tersembunyi;
+}
+
+nav ul li{
+    mengapung : kiri;
+}
+
+nav  ul  li  a {
+    warna : hitam;
+    font-weight : tebal;
+    perataan teks : tengah;
+    bantalan :  0 piksel  16 piksel  0 piksel  16 piksel ;
+    dekorasi teks : tidak ada;
+}
+
+nav  ul  li  a : arahkan {
+    text-decoration : garis bawah;
+}
+
+bagian {
+    margin : otomatis;
+    tampilan : fleksibel;
+    margin-bawah :  50 px ;
+}
+
+.kolom {
+    margin-atas :  50 px ;
+    margin-bawah :  50 px ;
+}
+
+.kolom .deskripsi {
+    ukuran font :  20 px ;
+    font-weight : tebal;
+    font-family :  'comic sans ms' ;
+    warna :  # 364f6b ;
+}
+
+h2 {
+    font-family :  'comic sans ms' ;
+    berat font :  800 ;
+    ukuran font :  45 px ;
+    margin-bawah :  20 px ;
+    warna :  # 364f6b ;
+    lebar :  100 % ;
+    tinggi garis :  50 px ;
+}
+
+sebuah .tbl-biru {
+    latar belakang :  # 3f72af ;
+    batas-radius :  20 px ;
+    margin-atas :  20 px ;
+    bantalan :  15 px  20 px  15 px  20 px ;
+    warna :  #FFFFFF ; _
+    kursor : penunjuk;
+    font-weight : tebal;
+}
+
+sebuah .tbl-biru : hover {
+    latar belakang :  # fc5185 ;
+    dekorasi teks : tidak ada;
+}
+
+sebuah .tbl-merah muda {
+    latar belakang :  # fc5185 ;
+    batas-radius :  20 px ;
+    margin-atas :  20 px ;
+    bantalan :  15 px  20 px  15 px  20 px ;
+    warna :  #FFFFFF ; _
+    kursor : penunjuk;
+    font-weight : tebal;
+}
+
+sebuah .tbl-pink : hover {
+    latar belakang :  # 3f72af ;
+    dekorasi teks : tidak ada;
+}
+
+p {
+    margin :  10 piksel  0 piksel  10 piksel  0 piksel ;
+    bantalan :  10 px  0 px  10 px  0 px ;
+}
+
+.tengah {
+    perataan teks : tengah;
+    lebar :  100 % ;
+}
+
+.daftar-guru {
+    lebar :  100 % ;
+    posisi : relatif;
+    tampilan : fleksibel;
+    flex-wrap : bungkus;
+}
+
+.kartu-guru {
+    lebar :  20 % ;
+    margin :  0 otomatis;
+}
+
+.kartu-guru  img {
+    lebar :  80 % ;
+    batas-radius :  50 % ;
+}
+
+.kartu-guru  p {
+    font-family :  'comic sans ms' ;
+    berat font :  800 ;
+    ukuran font :  25 px ;
+    perataan teks : tengah;
+    warna :  # 364f6b ;
+}
+
+.daftar-mitra {
+    lebar :  100 % ;
+    posisi : relatif;
+    tampilan : fleksibel;
+    flex-wrap : bungkus;
+}
+
+.kartu-mitra {
+    lebar :  20 % ;
+    margin :  0 otomatis;
+}
+
+.img kartu-mitra  {
+    lebar :  150 piksel ;
+    batas-radius :  50 % ;
+}
+
+#kontak {
+    latar belakang :  #dedede ;
+    pengisi : 50 px  0 px  50 px  0 px ;
+}
+
+.catatan-kaki {
+    lebar :  100 % ;
+    posisi : relatif;
+    tampilan : fleksibel;
+    flex-wrap : bungkus;
+    margin : otomatis;
+}
+
+.footer-bagian {
+    lebar :  20 % ;
+    margin :  0 otomatis;
+}
+
+h3 {
+    font-family :  'comic sans ms' ;
+    berat font :  800 ;
+    ukuran font :  30 px ;
+    margin-bawah :  20 px ;
+    warna :  # 364f6b ;
+    lebar :  100 % ;
+    tinggi garis :  50 px ;
+}
+
+# hak cipta {
+    perataan teks : tengah;
+    lebar :  100 % ;
+    pengisi :  50 px  0 px  50 px  0 px ;
+    margin-atas :  50 px ;
+}
+
+@media screen dan ( max-width :  991.98 px ) {
+    . pembungkus {
+        lebar :  90 % ;
+    }
+
+    . logo  { _
+        tampilan : blok;
+        lebar :  100 % ;
+        perataan teks : tengah;
+    }
+
+    navigasi _ menu {
+        lebar :  100 % ;
+        batas :  0 ;
+    }
+
+    navigasi _ menu  ul {
+        perataan teks : tengah;
+        margin : otomatis;
+        tinggi garis :  60 px ;
+    }
+
+    navigasi _ menu  ul  li {
+        tampilan : inline-block;
+        mengapung : tidak ada;
+    }
+
+    bagian {
+        tampilan : blok;
+    }
+
+    bagian  img {
+        tampilan : blok;
+        lebar :  100 % ;
+        tinggi : otomatis;
+    }
+
+    .kartu-guru {
+        lebar :  50 % ;
+    }
+
+    .kartu-mitra {
+        lebar :  50 % ;
+    }
+}

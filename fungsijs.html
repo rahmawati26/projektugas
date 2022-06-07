@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript</title>
+
+	<style>
+		#wrap{
+			background: black;
+			color: white;
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+
+	<img src="bromo.jpg" alt="gambar bromo" height="450" width="400">
+	<div id="wrap"></div>
+
+	<script>
+		//FUNGSI
+
+		//menuliskan fungsi
+		//function printText(){
+		//	var x = "Universitas Duta Bangsa Surakarta"
+		//	document.getElementById("wrap").innerHTML = x;
+		//}
+
+
+		//memanggil fungsi
+		//printText();
+
+		//parameter pada fungsi
+		//function printText(fikom, fikes, fhb){
+		//	var text = fikom + fikes + fhb + " Universitas Duta Bangsa Surakarta";
+		//	document.getElementById("wrap").innerHTML = text;
+		//}
+
+		//printText("Fakultas Ilmu Komputer,", " Fakultas Ilmu Kesehatan,", " Fakultas Hukum Bisnis");
+
+
+		//(3) return pada javascript
+		//function menjumlahkan(angka1, angka2){
+		//	return angka1 + angka2;
+		//}
+
+		//var text = menjumlahkan(20, 30);
+		//document.getElementById("wrap").innerHTML = text;
+
+		//(4) scope di javascript
+			// global var & local var
+
+		// global
+		var text = "Universitas Duta Bangsa Surakarta";
+
+		function printText(){
+			//local var
+			//var text2 = "Fakultas Ilmu Komputer"
+
+			//global var
+			//text2 = "Fakultas Ilmu Komputer"
+
+			var text = " Fakultas Ilmu Komputer";
+		}
+
+		printText();
+
+		document.getElementById("wrap").innerHTML = text;
+		
+	</script>
+</body>
+</html>
